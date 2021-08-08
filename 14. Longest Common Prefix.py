@@ -3,7 +3,7 @@ o = ''
 
 str_min = min(strs, key=len)
 min_i = strs.index(str_min)
-f = strs.pop(min_i)
+strs.pop(min_i)
 strs_len = len(strs)
 counter = 0
 for i in reversed(range(len(str_min) + 1)):
